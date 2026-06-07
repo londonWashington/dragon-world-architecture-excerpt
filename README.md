@@ -116,11 +116,13 @@ Docs/
 To protect proprietary systems and commercial assets, the following are omitted:
 
 - `DragonStateManager` (full state machine — ~5000 lines across partial classes)
-- `RigControl` and all IK/procedural animation systems
-- `AircraftPhysics` / `AirplaneController` / `AeroSurface`
+- `RigControl` and all IK/procedural animation systems (~3000 lines across partial classes, custom movement algorithms)
+- `AircraftPhysics` / `AirplaneController` / `AeroSurface` (all aerodynamics physisc)
 - All ScriptableObject AI action and consideration assets
 - VFX, audio, and shader systems
 - Economy, scoring, and progression systems
+- External entities: Tornado, Lightning, Rider, dolphins etc
+- Audiomanagers, GameDirectorManagers, Ocean-controller, UI-controllers, additional "game-feel" systems (hearBeat controller, adrenaline manager, CameraEffects manager etc).
 
 The included scripts are sufficient to understand the architectural patterns, interface contracts, and AI decision pipeline.
 
