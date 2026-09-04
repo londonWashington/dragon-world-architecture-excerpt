@@ -1,8 +1,9 @@
 # Dragon World — Architecture Portfolio
 
 > **Note:** This repository is a **curated portfolio excerpt**, not the full game source.  
-> It is shared to illustrate systems thinking, architectural decisions, and production-quality code patterns.  
+> It is provided as supporting technical proof for the EMG application.
 > Core gameplay logic, proprietary shaders, and content assets are not included.
+> Proprietary gameplay systems and production assets are intentionally omitted.
 
 ---
 
