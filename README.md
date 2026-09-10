@@ -15,12 +15,12 @@ This repository is a **public technical showcase**, not the production source re
 
 ## Documentation
 
-- [Architecture Overview](docs/architecture-overview.md)
-- [Physics-Based Flight](docs/physics-based-flight.md)
-- [AI and Procedural Creatures](docs/ai-and-procedural-creatures.md)
-- [Combat and Reactive World](docs/combat-and-reactive-world.md)
-- [Arena Survival Vertical Slice](docs/arena-survival.md)
-- [Public Technical Scope](docs/public-technical-scope.md)
+* [Architecture Overview](Docs/architecture-overview.md)
+* [Physics-Based Flight](Docs/physics-based-flight.md)
+* [AI and Procedural Creatures](Docs/ai-and-procedural-creatures.md)
+* [Combat and Reactive World](Docs/combat-and-reactive-world.md)
+* [Arena Survival Vertical Slice](Docs/arena-survival.md)
+* [Public Technical Scope](Docs/public-technical-scope.md)
 
 ## Current development state
 
@@ -30,7 +30,7 @@ The architecture remains under active development. This public edition describes
 
 ## Repository policy
 
-- No production source code is distributed here.
+- Production source code is omitted. The /Scripts directory contains only reference architectural contracts, decoupled interfaces, and sample subsystems demonstrating the framework targeted for C++ migration.
 - No complete algorithms, tuning values, backend topology, or private roadmap are included.
 - Names of selected systems are shown only where they clarify architectural responsibility.
 - Public material is curated separately from the internal source of truth.
